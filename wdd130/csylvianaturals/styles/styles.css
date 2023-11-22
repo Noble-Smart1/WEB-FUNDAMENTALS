@@ -1,0 +1,139 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Align children at the start and end of the container */
+    align-items: center; /* Center vertically */
+}
+
+#logo_link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px; /* Adjust the size based on your design */
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section Styles */
+#hero\ msg {
+    text-align: center;
+}
+
+#hero {
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* #msg1 {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    float: left; Float the text to the left of the second image */
+/* } */
+
+#msg1 {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    overflow: hidden; /* Clear floats within #msg1 to prevent layout issues */
+}
+
+.side-by-side {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; */
+    overflow: hidden;
+
+}
+
+.text-block {
+    float: left;
+    width: calc(50% - 10px); /* Adjust the width and spacing as needed */
+    margin-right: 20px; 
+}
+img {
+    
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 20px; /* Adjust as needed for spacing */
+    padding-left: 60px;
+
+}
+
+
+/* Content Section Styles */
+h2, h3 {
+    color: #0066cc; /* Adjust the color based on your design */
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Second Image Styles */
+#container img {
+    float: right; /* Float the second image to the right of the text */
+    margin: 0 0 20px 20px; /* Adjust margins as needed */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social img {
+    margin: 0 10px;
+}
+
+/* Responsive Styles - Adjust as needed */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
