@@ -297,35 +297,4 @@ margin-left:  100px;
            between the labels and their text fields */
         margin-left: 0.5em;
       }
-
-
-
-
-
-
-      @media screen and (max-width: 600px) {
-        nav {
-            flex-direction: column;
-        }
-    
-        nav a {
-            margin: 0;
-            margin-bottom: 10px;
-        }
-    
-        /* Add more responsive styles as needed */
-    }
-
-
-
-
-    @media screen and (min-width: 601px) and (max-width: 900px) {
-        nav a {
-            margin-left: 100px; /* Adjust margin for smaller screens */
-        }
-    
-        /* Add more responsive styles as needed */
-    }
       
-    
-    
